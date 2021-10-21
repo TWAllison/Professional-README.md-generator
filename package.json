@@ -1,0 +1,24 @@
+{
+  "name": "professional-readme.md-generator",
+  "version": "1.0.0",
+  "description": "README.md Generator",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TWAllison/Professional-README.md-generator.git"
+  },
+  "author": "TWAllison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TWAllison/Professional-README.md-generator/issues"
+  },
+  "homepage": "https://github.com/TWAllison/Professional-README.md-generator#readme"
+}

@@ -1,12 +1,24 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const fs = requuire('fs');
+const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const promtQuestions = ([
     // github user name
-    
+    {
+        type: 'input',
+        name: 'githubUsername',
+        message: 'Enter your GitHub Username.',
+        validate: usernameInput => {
+            if (usernameInput){
+                return true;
+            } else {
+                console.log ('Please enter your GitHub Username!');
+                return false;
+            }
+        }
+    }
 
     // Project Title
 
@@ -29,7 +41,13 @@ const promtQuestions = ([
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(promtQuestions)
+    .then (function(userInput){
+        console.log(userInput)
+    })
+
+}
 
 // Function call to initialize app
 init();
