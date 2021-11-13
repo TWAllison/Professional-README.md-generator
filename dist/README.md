@@ -1,12 +1,12 @@
 
   
-  # TEST Project
+  # Professional-README.MD Generator
 
 
   [![license](https://img.shields.io/badge/license-Mit-success)](https://shields.io)
 
   ## Description
-  This is designed to test the functionality of the README.md generator.
+  This project is an app ran in the command line that will prompt the user with questions. The answers from the prompted questions will be used to generate a README.MD file.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -17,10 +17,10 @@
   
 
   ## Installation
-  Install node modules fs and inquirer also need to clone app and use in code editor along with a terminal or cli
+  Clone the code from the GitHub repository and install on your 
 
   ## Use
-  open in code editor and install appropriate modules then run in the commaand line 
+  Make sure you are in the root of the project folder. Type npm i in the command line to install the required node packages. Once the install is done type node index.js in the command line to start the prompt questions. Answer the questions as prompted. Once you are finished answering the prompts a README.md will be generated with the information from the prompted questions. Check the dist directory for your .md file.
 
 
   ## License
@@ -28,11 +28,11 @@
 
 
   ## Contribute
-  Add desired features or improvements to code , just dont break the app 
+  Contact me directly for more information.
 
 
   ## Test
-  run it in the command line after installing required npm modules
+  The project must be cloned and opened in a code editor. once opened the app can be ran in using the CLI
 
   ### Questions:
   * If you have questions about this project contact me at:
